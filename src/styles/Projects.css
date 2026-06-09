@@ -1,0 +1,43 @@
+.projects {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.projects h1 {
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h2 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 20px;
+}
+
+.project-card button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
